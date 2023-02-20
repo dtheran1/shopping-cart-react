@@ -1,9 +1,8 @@
-// import { useFilters } from '../App'
-
+import { useCart } from '../hooks/useCart'
 import('./footer.css')
 
-export function Footer ({ filters }) {
-  // const { filters } = useFilters()
+export function Footer () {
+  const { cart } = useCart()
   return (
     <footer className='footer'>
       {
@@ -12,7 +11,7 @@ export function Footer ({ filters }) {
         <h5>Shopping Cart con useContext & useReducer</h5>
         */
       }
-      {JSON.stringify(filters, null, 2)}
+      {JSON.stringify(cart, null, 2)}
 
     </footer>
 
