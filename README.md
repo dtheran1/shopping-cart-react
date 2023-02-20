@@ -1,5 +1,8 @@
 # Enunciado
 
+![image](https://user-images.githubusercontent.com/83596975/220184798-eb4d3639-3446-4840-a1b2-07650de1facf.png)
+
+
 Ecommerce
 
 - [x] Muestra una lista de productos que vienen de un JSON
